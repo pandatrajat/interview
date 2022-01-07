@@ -1,0 +1,7 @@
+version: '3'
+services:
+  shubham-app:
+    image: shubham:latest
+    build: .
+    ports:
+      - 4200:4200
