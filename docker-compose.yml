@@ -1,14 +1,7 @@
 version: '3'
-services:
-  shubham-app:
-    image: shubham:latest
-    build: .
-    ports:
-      - 4200:4200
-
-  #nginx-service:
-  #  image: nginx
-   # ports:
-    #  - 8081:8081
-
+services: 
+     app:
+       build: .
+       ports: 
+        - 4200:4200
 
