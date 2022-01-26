@@ -4,7 +4,7 @@ pipeline{
         stage('Docker Build'){
             agent any
             steps{
-                sh'docker build -t rajat/docker-jenkins_app:latest'
+                sh'docker-compose up'
             }
         }
     }
